@@ -3,6 +3,7 @@
 ## Code:
 
 clc;
+
 close all;
 
 f=imread('C:\Users\T.SHELBY\Desktop\gear inspection\gear_raw.png');
@@ -42,13 +43,13 @@ subplot(2,3,6),imshow(f),title(['No.of Teeth present::',num2str(num)]);
 
 ## Original image:
 
- ![gear_raw](/images/gear_raw.png)
+ ![gear_raw](/images/gear_raw.PNG)
 
 => converting this image to binary image and filling the holes.
 
 ## Filled holes:
 
-![FILLED_HOLES](/images/FILLED_HOLES.png)
+![FILLED_HOLES](/images/FILLED_HOLES.PNG)
  
 
 => now getting only the teeth to find the missing teeth.
@@ -56,15 +57,15 @@ subplot(2,3,6),imshow(f),title(['No.of Teeth present::',num2str(num)]);
 
 
 
-Only Teeth:
+## Only Teeth:
 
- ![only_teeth](/images/only_teeth.png)
+ ![only_teeth](/images/only_teeth.PNG)
 
 => dilating the image to get clear insight. And making the defects highlighted .
 
-With defects highlighted:
+## With defects highlighted:
 
-![with_defects](/images/with_defects.png)
+![with_defects](/images/with_defects.PNG)
  	 
 
 
@@ -74,15 +75,15 @@ With defects highlighted:
 
 
 
-No of teeth present in given image:
+## No of teeth present in given image:
 
  
 
-![total](/images/total.png)
+![total](/images/total.PNG)
 
 
 
 
-Total OUTPUT:
+## Total OUTPUT:
 
- ![FINAL_SUB](/images/FINAL_SUB.png)
+ ![FINAL_SUB](/images/FINAL_SUB.PNG)
